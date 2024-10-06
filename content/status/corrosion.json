@@ -1,0 +1,15 @@
+{
+  "name": "Коррозия",
+  "effect": {
+    "type": "ParticleEffect",
+    "particles": 3,
+    "lifetime": 15,
+    "length": 2,
+    "sizeFrom": 2,
+    "sizeTo": 1,
+    "colorFrom": "72591F",
+    "colorTo": "957324",
+    "cone": 360
+  },
+  "damage": 0.15
+}
