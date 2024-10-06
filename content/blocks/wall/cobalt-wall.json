@@ -1,0 +1,17 @@
+{
+  "name": "Кобальтовая стена",
+  "description": "Не самая прочная стена,но пока нету альтернативы она будет полезна",
+  "type": "wall",
+  "health": 650,
+  "size": 1,
+  "requirements": [
+    "cobalt/6"
+  ],
+  "research": {
+    "parent": "integral",
+    "requirements": [
+      "cobalt/50"
+    ]
+  },
+  "category": "defense"
+}
