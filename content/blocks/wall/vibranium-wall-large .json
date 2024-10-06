@@ -1,0 +1,19 @@
+{
+  "name": "Большая вибраниумная стена",
+  "description": "Большая версия стены из вибраниума",
+  "type": "wall",
+  "health": 1400,
+  "size": 2,
+  "insulated": true,
+  "absorbLasers": true,
+  "requirements": [
+    "vibranium/24"
+  ],
+  "research": {
+    "parent": "vibranium-wall",
+    "requirements": [
+      "vibranium/400"
+    ]
+  },
+  "category": "defense"
+}
