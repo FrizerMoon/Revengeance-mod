@@ -1,1 +1,17 @@
-
+{
+  "type": "ItemBridge",
+  "name": "Кобальтовый мостовой конвейер",
+  "category": "distribution",
+  "description": "Переносит предметы на небольшие расстояния ",
+  "health": 80,
+  "range": 4,
+  "transportTime": 4,
+  "hasPower": false,
+  "requirements": [
+    "cobalt/8"
+  ],
+  "research": "cobalt-junction",
+  "researchCost": [
+    "cobalt/100"
+  ]
+}
