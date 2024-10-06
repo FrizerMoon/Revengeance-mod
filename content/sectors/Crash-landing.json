@@ -1,0 +1,14 @@
+{
+  "planet": "Celestis",
+  "localizedName": "Аварийная посадка",
+  "description": "При перельоте с помощю межпространстеного ускорителя мы все же нашли планету красных,потерпев при этом аварию упав в глуши планеты",
+  "sector": 1,
+  "captureWave": 15,
+  "difficulty": 2,
+  "alwaysUnlocked": true,
+  "research": {
+    "root": true,
+    "name": "Celestis",
+    "planet": "Celestis"
+  }
+}
