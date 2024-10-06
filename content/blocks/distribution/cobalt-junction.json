@@ -1,1 +1,19 @@
+{
+  "type": "Junction",
+  "name": "Кобальтовий перекрёсток",
+  "category": "distribution",
+  "description": "Переносит предметы через конвейер",
+  "health": 80,
+  "speed": 12,
+  "capacity": 8,
+  "requirements": [
+    "cobalt/3"
 
+  ],
+  "research": {
+    "parent": "cobalt-conveyor",
+    "requirements": [
+      "cobalt/50"
+    ]
+  }
+}
