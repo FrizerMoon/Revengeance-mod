@@ -1,1 +1,21 @@
+{
+  "type": "CoreBlock",
+  "name": "Ядро: «Интеграл»",
+  "category": "effect",
+  "description": "Ядро созданое из кобальта,как и все из кобальта имеет имунитет к корозии",
+  "size": 4,
+  "squareSprite": false,
+  "health": 3900,
+  "itemCapacity": 11000,
+  "unitType": "Delta",
+  "requirements": [
+    "cobalt/150"
+  ],
+  "research": {
+    "parent": "Crash-landing",
+    "requirements": [
+      "cobalt/100"
+    ]
+  }
+}
 
