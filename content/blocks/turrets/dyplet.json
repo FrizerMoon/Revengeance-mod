@@ -20,21 +20,19 @@
     "cobalt": {
       "damage": 40,
       "speed": 6,
-      "type": "BasicBulletType",
+      "type": "FlakBulletType",
       "hitcolor": "1611fd",
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
-      "splashDamage": 40
 
     },
     "vibranium": {
       "damage": 60,
       "speed": 6,
-      "type": "BasicBulletType",
+      "type": "FlakBulletType",
       "hitcolor": "1611fd",
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
-      "splashDamage": 60,
       "status": "slow",
       "statusDuration": 60
     }
