@@ -6,6 +6,7 @@
   "speed": 0.5,
   "flying": false,
   "armor": 12,
+  "outlineColor": "44413c",
   "range": 200,
   "weapons": [
     {
@@ -31,7 +32,7 @@
       "continuous": true,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 70,
+        "damage": 50,
         "width": 6,
         "length": 160,
         "drawSize": 470,
