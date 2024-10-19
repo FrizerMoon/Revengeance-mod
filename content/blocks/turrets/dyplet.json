@@ -24,6 +24,8 @@
       "hitcolor": "1611fd",
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
+      "collidesGround": true,
+      "collidesAir": true
 
     },
     "vibranium": {
@@ -33,6 +35,8 @@
       "hitcolor": "1611fd",
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
+      "collidesGround": true,
+      "collidesAir": true
       "status": "slow",
       "statusDuration": 60
     }
