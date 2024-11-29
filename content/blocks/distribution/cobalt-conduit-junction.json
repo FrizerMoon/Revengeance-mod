@@ -1,0 +1,15 @@
+{
+  "type": "LiquidJunction",
+  "name": "Жидкостный перекрёсток",
+  "health": 100,
+  "category": "liquid",
+  "requirements": [
+    "cobalt/7"
+  ],
+  "research": {
+    "parent": "cobalt-conduit",
+    "requirements": [
+      "cobalt/100"
+    ]
+  }
+}
