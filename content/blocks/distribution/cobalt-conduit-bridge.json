@@ -1,0 +1,17 @@
+{
+  "type": "LiquidBridge",
+  "name": "Мостовой трубопровод",
+  "health": 100,
+  "liquidCapacity": 6,
+  "category": "liquid",
+  "range": 12,
+  "requirements": [
+    "cobalt/8"
+  ],
+  "research": {
+    "parent": "cobalt-conduit",
+    "requirements": [
+      "cobalt/100"
+    ]
+  }
+}
