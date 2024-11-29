@@ -1,0 +1,21 @@
+{
+  "type": "Conduit",
+  "name": "Кобальтовый трубопровод",
+  "description": "Перемещает жидкости",
+  "category": "liquid",
+  "speed": 3,
+  "liquidCapacity": 6,
+  "liquidPressure": 1,
+  "leaks": true,
+  "botColor": "4a4b53",
+  "health": 50,
+  "research": {
+    "parent": "cobalt-pump",
+    "requirements": [
+      "cobalt/100"
+    ]
+  },
+  "requirements": [
+    "cobalt/5"
+  ]
+}
