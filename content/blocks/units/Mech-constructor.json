@@ -1,0 +1,38 @@
+{
+  "name": "Фабрика энергетических юнитов",
+  "type": "UnitFactory",
+  "health": 800,
+  "size": 3,
+  "configurable": false,
+  "consumes": {
+    "power": 1.2
+  },
+  "plans": [
+    {
+      "unit": "Cobrax",
+      "time": 1200,
+      "requirements": [
+        "cobalt/25",
+        "vibranium/10"
+      ]
+    }
+  ],
+  "requirements": [
+    "cobalt/50",
+    "vibranium/30"
+  ],
+  "category": "units",
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "SectorComplited",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/1500",
+      "vibranium/1000"
+    ]
+  }
+}
