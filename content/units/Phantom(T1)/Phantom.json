@@ -1,0 +1,32 @@
+{
+  "name": "Фантом",
+  "type": "flying",
+  "description": "Летающий безпилотник нацелен только ядро,в больших количествах может доставить проблем",
+  "flying": true,
+  "health": 100,
+  "speed": 3.5,
+  "drag": 0.05,
+  "hitSize": 3,
+  "weapons": [
+    {
+      "name": "kamikaze-explosive",
+      "reload": 1,
+      "mirror": false,
+      "bullet": {
+        "type": "BulletType",
+        "damage": 0,
+        "splashDamage": 300,
+        "splashDamageRadius": 60,
+        "speed": 0,
+        "lifetime": 1,
+        "killShooter": true,
+        "hitEffect": {
+          "type": "ExplosionEffect",
+          "radius": 60,
+          "damage": 300
+        }
+      },
+      "shootSound": "boom"
+    }
+  ]
+}
