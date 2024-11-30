@@ -7,8 +7,12 @@
   "difficulty": 3,
   "alwaysUnlocked": false,
   "research": {
-    "root": true,
-    "name": "Celestis",
-    "planet": "Celestis"
+    "parent": "Crash-landing",
+    "objectives": [
+      {
+        "type": "SectorComplited",
+        "preset": "Crash-landing"
+      }
+    ]
   }
 }
