@@ -1,0 +1,201 @@
+{
+  "type": "ItemTurret",
+  "name": "Рельсотрон",
+  "description": "Мощная пушка стреляющая залпом из 2 энергетических снарядов",
+  "health": 1000,
+  "size": 3,
+  "reload": 240,
+  "category": "turret",
+  "rotateSpeed": 2,
+  "consumes": {
+    "power": 4
+  },
+  "range": 324,
+  "shoot": {
+    "shots": 2,
+    "shotDelay": 25
+  },
+  "ammoPerShot": 3,
+  "ammoTypes": {
+    "cobranium": {
+      "type": "ArtilleryBulletType",
+      "trailChance": -1,
+      "trailWidth": 6.6,
+      "trailLength": 54,
+      "speed": 2,
+      "damage": 150,
+      "lifetime": 162,
+      "width": 60,
+      "height": 60,
+      "frontColor": "9cff9d",
+      "backColor": "57c959",
+      "splashDamage": 150,
+      "splashDamageRadius": 40,
+      "splashDamagePierce": true,
+      "targetAir": false,
+      "targetGround": true,
+      "incendChance": 1,
+      "incendAmount": 8,
+      "incendSpread": 2,
+      "status": "slow",
+      "statusDuration": 240,
+      "ammoMultiplier": 1,
+      "despawnSound": "explosionbig",
+      "fragRandomSpread": 0,
+      "fragSpread": 45,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragBullets": 8,
+      "fragBullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 2,
+        "lifetime": 10,
+        "damage": 20,
+        "frontColor": "9cff9d",
+        "backColor": "57c959",
+        "collides": false,
+        "fragRandomSpread": 0,
+        "fragAngle": 90,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "ExplosionBulletType",
+          "splashDamageRadius": 16,
+          "killShooter": false,
+          "splashDamage": 56,
+          "frontColor": "9cff9d",
+          "backColor": "57c959",
+          "fragBullets": 1,
+          "fragRandomSpread": 0,
+          "fragLifeMin": 1,
+          "fragLifeMax": 1,
+          "fragVelocityMin": 1,
+          "fragVelocityMax": 1
+        }
+      }
+    },
+    "implositis": {
+      "type": "ArtilleryBulletType",
+      "trailChance": -1,
+      "trailWidth": 6.6,
+      "trailLength": 54,
+      "speed": 2,
+      "damage": 150,
+      "lifetime": 162,
+      "width": 60,
+      "height": 60,
+      "frontColor": "f08989",
+      "backColor": "d43d3d",
+      "splashDamage": 200,
+      "splashDamageRadius": 40,
+      "splashDamagePierce": true,
+      "targetAir": false,
+      "targetGround": true,
+      "incendChance": 1,
+      "incendAmount": 8,
+      "incendSpread": 2,
+      "status": "slow",
+      "statusDuration": 240,
+      "ammoMultiplier": 1,
+      "despawnSound": "explosionbig",
+      "fragRandomSpread": 0,
+      "fragSpread": 45,
+      "fragLifeMin": 1,
+      "fragLifeMax": 1,
+      "fragVelocityMin": 1,
+      "fragVelocityMax": 1,
+      "fragBullets": 8,
+      "fragBullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 2,
+        "lifetime": 10,
+        "damage": 20,
+        "collides": false,
+        "frontColor": "f08989",
+        "backColor": "d43d3d",
+        "fragRandomSpread": 0,
+        "fragAngle": 90,
+        "fragBullets": 1,
+        "fragBullet": {
+          "type": "ExplosionBulletType",
+          "splashDamageRadius": 16,
+          "killShooter": false,
+          "splashDamage": 56,
+          "frontColor": "f08989",
+          "backColor": "d43d3d",
+          "fragBullets": 1,
+          "fragRandomSpread": 0,
+          "fragLifeMin": 1,
+          "fragLifeMax": 1,
+          "fragVelocityMin": 1,
+          "fragVelocityMax": 1,
+          "fragBullet": {
+            "type": "ArtilleryBulletType",
+            "speed": 2,
+            "lifetime": 10,
+            "damage": 0,
+            "collides": false,
+            "fragRandomSpread": 0,
+            "fragAngle": 90,
+            "fragBullets": 1,
+            "frontColor": "f08989",
+            "backColor": "d43d3d",
+            "fragBullet": {
+              "type": "ExplosionBulletType",
+              "splashDamageRadius": 16,
+              "killShooter": false,
+              "splashDamage": 49,
+              "frontColor": "f08989",
+              "backColor": "d43d3d",
+              "fragBullet": {
+                "type": "ArtilleryBulletType",
+                "speed": 2,
+                "lifetime": 10,
+                "damage": 20,
+                "collides": false,
+                "fragRandomSpread": 0,
+                "fragAngle": 90,
+                "fragBullets": 1,
+                "fragLifeMin": 1,
+                "fragLifeMax": 1,
+                "fragVelocityMin": 1,
+                "fragVelocityMax": 1,
+                "frontColor": "f08989",
+                "backColor": "d43d3d",
+                "fragBullet": {
+                  "type": "ExplosionBulletType",
+                  "splashDamageRadius": 12,
+                  "killShooter": false,
+                  "splashDamage": 42,
+                  "frontColor": "f08989",
+                  "backColor": "d43d3d"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    "cobalt/50",
+    "vibranium/30",
+    "cobranium/100"
+
+  ],
+  "research": {
+    "parent": "dyplet",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/500",
+      "vibranium/300",
+      "cobranium/300"
+    ]
+  }
+}
