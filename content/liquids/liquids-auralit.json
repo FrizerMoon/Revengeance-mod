@@ -1,0 +1,10 @@
+{
+  "name": "Ауралит",
+  "description": "Жидкость очень похожая на шлак но с невероятно большой температурой",
+  "temperature": 0.9,
+  "viscosity": 0.6,
+  "flammability": 0,
+  "explosiveness": 0,
+  "color": "#8B0000",
+  "flameColor": "#8B0000"
+}
