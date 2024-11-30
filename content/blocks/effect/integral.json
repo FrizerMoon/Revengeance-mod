@@ -13,11 +13,8 @@
   ],
   "research": {
     "parent": "Crash-landing",
-    "objectives": [
-      {
-        "type": "SectorComplited",
-        "preset": "Crash-landing"
-      }
+    "requirements": [
+      "cobalt/100"
     ]
   }
 }
