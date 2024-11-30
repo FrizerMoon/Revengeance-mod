@@ -1,0 +1,42 @@
+{
+  "name": "Треск",
+  "type": "mech",
+  "description": "Незавершеная органечиская масса,может только взрыватся при плиближению к ядру",
+  "flying": false,
+  "health": 150,
+  "speed": 2.5,
+  "hitSize": 3,
+  "outlineColor": "361a04",
+  "drag": 0.05,
+  "faceTarget": true,
+  "hovering": false,
+  "allowLegStep": true,
+  "drawCell": false,
+  "SuicideAI": {
+    "type": "SuicideAI",
+    "targetBuildings": true,
+    "pathfind": true
+  },
+  "weapons": [
+    {
+      "name": "kamikaze-explosive",
+      "reload": 1,
+      "mirror": false,
+      "bullet": {
+        "type": "BulletType",
+        "damage": 0,
+        "splashDamage": 300,
+        "splashDamageRadius": 60,
+        "speed": 0,
+        "lifetime": 1,
+        "killShooter": true,
+        "hitEffect": {
+          "type": "ExplosionEffect",
+          "radius": 60,
+          "damage": 300
+        }
+      },
+      "shootSound": "boom"
+    }
+  ]
+}
