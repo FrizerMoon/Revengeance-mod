@@ -1,0 +1,10 @@
+{
+  "name": "Радиоактивные отходы",
+  "description": "Странная жидкость,которая иммет разум,нужно быть с ней очень осторожным",
+  "temperature": 0.3,
+  "viscosity": 1,
+  "flammability": 1,
+  "explosiveness": 0,
+  "color": "#808000",
+  "flameColor": "#808000"
+}
