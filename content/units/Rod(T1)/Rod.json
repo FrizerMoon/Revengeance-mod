@@ -1,0 +1,51 @@
+{
+  "type": "mech",
+  "name": "Жезл",
+  "description": "Невероятно что из отходов может появится новая жизнь,только для них мы лишь паразиты...",
+  "health": 350,
+  "speed": 1.5,
+  "hitSize": 3,
+  "armor": 1,
+  "flying": false,
+  "faceTarget": true,
+  "hovering": false,
+  "allowLegStep": true,
+  "drawCell": false,
+  "outlineColor": "361a04",
+  "weapons": [
+    {
+      "x": 6,
+      "y": 0,
+      "rotate": false,
+      "mirror": true,
+      "reload": 8,
+      "shootSound": "flame",
+      "shootCone": 45,
+      "inaccuracy": 17,
+      "bullet": {
+        "damage": 160,
+        "shootEffect": "none",
+        "speed": 6,
+        "pierce": true,
+        "pierceBuilding": true,
+        "lifetime": 6,
+        "despawnEffect": "none",
+        "width": 0.01,
+        "height": 0.01,
+        "hittable": false,
+        "smokeEffect": {
+          "type": "ParticleEffect",
+          "particles": 25,
+          "length": 40,
+          "lifetime": 36,
+          "interp": "circleOut",
+          "cone": 3,
+          "colorFrom": "9c6f40",
+          "colorTo": "6e482c",
+          "sizeFrom": 4,
+          "sizeTo": 0.6
+        }
+      }
+    }
+  ]
+}
