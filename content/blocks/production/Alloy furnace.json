@@ -1,0 +1,88 @@
+{
+  "type": "GenericCrafter",
+  "name": "Лигатурная печь",
+  "description": "Печь которая плавит вибраниум и кобальт делая с него кобраниум",
+  "category": "crafting",
+  "health": 450,
+  "size": 3,
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": true,
+  "outputItem": {
+    "item": "cobranium",
+    "amount": 3
+  },
+  "consumes": {
+    "power": 1.5,
+    "items": {
+      "items": [
+        {
+          "item": "cobalt",
+          "amount": 4
+        },
+        {
+          "item": "vibranium",
+          "amount": 2
+        }
+      ]
+    },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "liquids-auralit",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/1500",
+      "vibranium/1000"
+    ]
+  },
+  "requirements": [
+    "cobalt/150",
+    "vibranium/500"
+  ],
+  "craftTime": 120,
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawFlame",
+        "flameRadius": 3.2,
+        "flameRadiusIn": 1.0,
+        "flameRadiusScl": 3.5,
+        "flameRadiusMag": 2.0,
+        "flameRadiusInMag": 1.0,
+        "flameColor": "482b59"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "592b3c",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 1.3,
+        "reverse": true,
+        "particleRad": 18,
+        "particles": 16,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 60
+      }
+    ]
+  }
+}
