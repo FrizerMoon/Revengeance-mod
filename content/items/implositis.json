@@ -1,0 +1,20 @@
+{
+  "type": "material",
+  "name": "Имплозит",
+  "description": "Смесь вибраниума и ауралита,очень взрывоопасный",
+  "color": "#cf3030",
+  "explosiveness": "1f",
+  "flammability": "0.2f",
+  "radioactivity": "0f",
+  "cost": "1f",
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "vibranium",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ]
+  }
+}
