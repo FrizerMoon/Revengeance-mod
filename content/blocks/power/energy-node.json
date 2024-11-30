@@ -1,0 +1,29 @@
+{
+  "name": "Энергитический узел",
+  "type": "PowerNode",
+  "description": "Узел передающий энергию",
+  "size": 1,
+  "health": 50,
+  "maxNodes": 10,
+  "laserRange": 8,
+  "laserColor1": "6dfc8c",
+  "laserColor2": "2aa845",
+  "category": "power",
+  "requirements": [
+    "cobalt/4",
+    "vibranium/2"
+  ],
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/50",
+      "vibranium/100"
+    ]
+  }
+}
