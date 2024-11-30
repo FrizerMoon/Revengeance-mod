@@ -1,0 +1,14 @@
+{
+  "type": "Floor",
+  "name": "Radioactive waste",
+  "speedMultiplier": 0.5,
+  "variants": 3,
+  "statusDuration": 30,
+  "drownTime": 660,
+  "liquidDrop": "liquids-radioactive waste",
+  "liquidMultiplier": 2,
+  "isLiquid": true,
+  "cacheLayer": "water",
+  "albedo": 0.9,
+  "supportsOverlay": true
+}
