@@ -1,0 +1,65 @@
+{
+  "name": "Plasmatron",
+  "description": "Юнит стреляющий шаровой молнией котороя проходит сквозь ЛЮБЫЕ постройки",
+  "localizedName": "Плазматрон",
+  "type": "mech",
+  "outlineColor": "44413c",
+  "speed": 0.8,
+  "health": 400,
+  "weapons": [
+    {
+      "name": "Plasmatron-gun",
+      "x": 8,
+      "y": 0,
+      "reload": 40,
+      "recoil": 1,
+      "outlineColor": "697491",
+      "mirror": true,
+      "shootSound": "laser",
+      "inaccuracy": 5,
+      "shoot": {
+        "shots": 1
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "lifetime": 135,
+        "speed": 1.5,
+        "collides": true,
+        "collidesTiles": false,
+        "collidesAir": true,
+        "collidesGround": true,
+        "lightning": 12,
+        "lightningColor": "#ed4b32",
+        "width": 13,
+        "height": 13,
+        "lightningLengthRand": 4.56,
+        "lightningLength": 10,
+        "lightningDamage": 100,
+        "sprite": "large-orb",
+        "hitEffect": "none",
+        "despawnEffect": "none",
+        "despawnSound": "spark",
+        "frontColor": "#ff573d",
+        "damage": 200,
+        "bulletInterval": 3.2,
+        "intervalBullet": {
+          "type": "LightningBulletType",
+          "lightningLength": 10,
+          "lightningLengthRand": 4.56,
+          "lightningDamage": 200,
+          "lightningColor": "#ff3212F"
+        }
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 20,
+      "regen": 1,
+      "cooldown": 300,
+      "max": 1000,
+      "sides": 22
+    }
+  ]
+}
