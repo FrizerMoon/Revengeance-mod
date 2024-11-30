@@ -1,0 +1,75 @@
+{
+  "type": "GenericCrafter",
+  "name": "Мешалка Имплозитиса",
+  "description": "Мешалка которая смешивает вибраниум и ауралит получая при очень взрыоопасный материал что идеально подходит для амуниции",
+  "category": "crafting",
+  "health": 200,
+  "size": 2,
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": true,
+  "outputItem": {
+    "item": "implositis",
+    "amount": 2
+  },
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        {
+          "item": "vibranium",
+          "amount": 3
+        }
+      ]
+    },
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "liquids-auralit",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "research": {
+    "parent": "Alloy furnace",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobranium/300",
+      "vibranium/400"
+    ]
+  },
+  "requirements": [
+    "cobranium/30",
+    "vibranium/100"
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "db2a2a",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 1.3,
+        "reverse": true,
+        "particleRad": 18,
+        "particles": 16,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 60
+      }
+    ]
+  },
+  "craftTime": 180,
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}
