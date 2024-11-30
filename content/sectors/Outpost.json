@@ -1,0 +1,17 @@
+{
+  "planet": "Celestis",
+  "localizedName": "Аванпост",
+  "description": "Отбившись от 1 атаки врагов нам нужно двигатся к признакам цивилизации для атаки но так как перемещение здесь затруднительно мы обоснуем добычу материалов странном лесу *В нем замечены новые формы жизни* нужно быть на чеку кто знает что может обитать на этой планете",
+  "sector": 51,
+  "difficulty": 1,
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "Burning-Forest",
+    "objectives": [
+      {
+        "type": "SectorComplited",
+        "preset": "Burning-Forest"
+      }
+    ]
+  }
+}
