@@ -1,0 +1,19 @@
+{
+  "name": "Кобраниевая стена",
+  "description": "имеет повышеную прочность и не пропускает лазеры и молнии",
+  "type": "wall",
+  "health": 850,
+  "size": 1,
+  "insulated": true,
+  "absorbLasers": true,
+  "requirements": [
+    "cobranium/6"
+  ],
+  "research": {
+    "parent": "vibranium-wall",
+    "requirements": [
+      "cobranium/100"
+    ]
+  },
+  "category": "defense"
+}
