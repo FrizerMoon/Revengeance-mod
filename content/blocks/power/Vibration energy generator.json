@@ -1,0 +1,55 @@
+{
+  "name": "Генератор вибро-энергии",
+  "type": "ConsumeGenerator",
+  "description": "Генератор дающий энергию от вибраций",
+  "size": 2,
+  "category": "power",
+  "health": 300,
+  "powerProduction": 1,
+  "baseExplosiveness": 0,
+  "itemDuration": 240,
+  "consumes": {
+    "items": [
+      "vibranium/2"
+    ]
+  },
+
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/500",
+      "vibranium/1000"
+    ]
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "36ab24",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 1.3,
+        "reverse": true,
+        "particleRad": 18,
+        "particles": 16,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 60
+      }
+    ]
+  },
+  "requirements": [
+    "cobalt/150",
+    "vibranium/100"
+  ]
+}
