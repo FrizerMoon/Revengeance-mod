@@ -1,0 +1,67 @@
+{
+  "type": "mech",
+  "name": "Cobrax",
+  "description": "Юнит стреляющий молниями из рук и энергетическим лучем из ядра,нехватает только лазеров из глаз и замедления времени",
+  "localizedName": "Кобракс",
+  "speed": 0.6,
+  "health": 240,
+  "armor": 2,
+  "flying": false,
+  "faceTarget": true,
+  "allowLegStep": true,
+  "outlineColor": "44413c",
+  "weapons": [
+    {
+      "name": "Cobrax-gun",
+      "x": 0,
+      "y": -1,
+      "reload": 70,
+      "recoil": 1,
+      "mirror": false,
+      "rotate": false,
+      "shootSound": "laser",
+      "inaccuracy": 5,
+      "shoot": {
+        "firstShotDelay": 60,
+        "shotDelay": 12,
+        "shots": 1
+      },
+      "bullet": {
+        "type": "LaserBulletType",
+        "colors": [ "be0a0a", "de3737", "ffffff" ],
+        "width": 12,
+        "length": 144,
+        "damage": 45,
+        "healPercent": 7,
+        "collidesTeam": true,
+        "pierce": true,
+        "pierceBuilding": false,
+        "pierceCap": 1,
+        "hitColor": "be0a0a"
+      }
+    },
+    {
+      "name": "Cobrax-laser",
+      "x": 6,
+      "y": 0,
+      "mirror": true,
+      "reload": 15,
+      "recoil": 1,
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 40,
+        "lightningLength": 21,
+        "collidesAir": true,
+        "lightningColor": "de3737",
+        "lifetime": 15
+      }
+    }
+  ],
+  "research": {
+    "parent": "Mech-constructor",
+    "requirements": [
+      "cobalt/600",
+      "vibranium/300"
+    ]
+  }
+}
