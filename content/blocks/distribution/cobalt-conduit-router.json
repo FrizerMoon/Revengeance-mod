@@ -1,0 +1,15 @@
+{
+  "type": "LiquidRouter",
+  "name": "Жидкостный маршруторизатор",
+  "health": 100,
+  "category": "liquid",
+  "requirements": [
+    "cobalt/6"
+  ],
+  "research": {
+    "parent": "cobalt-conduit",
+    "requirements": [
+      "cobalt/100"
+    ]
+  }
+}
