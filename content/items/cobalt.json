@@ -1,0 +1,15 @@
+{
+  "type": "material",
+  "name": "Кобальт",
+  "description": "Один из немногих материалов который не поддался корозии",
+  "color": "#00BFFF",
+  "explosiveness": "0.3f",
+  "flammability": "0f",
+  "radioactivity": "0.1f",
+  "hardness": 1,
+  "cost": "1f",
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "Crash-landing"
+  }
+}
