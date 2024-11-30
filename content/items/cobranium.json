@@ -1,0 +1,20 @@
+{
+  "type": "material",
+  "name": "Кобраниум",
+  "description": "Сплав кобальта и вибраниума,сплав имеет характеристики собраных в себе материалов",
+  "color": "#00FFFF",
+  "explosiveness": "0.3f",
+  "flammability": "0f",
+  "radioactivity": "0.1f",
+  "cost": "1f",
+  "alwaysUnlocked": false,
+  "research": {
+    "parent": "cobalt",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ]
+  }
+}
