@@ -1,0 +1,31 @@
+{
+  "type": "Pump",
+  "name": "Кобальтовый насос",
+  "description": "Может добывать жидкости из озер и рек",
+  "health": 200,
+  "size": 2,
+  "pumpAmount": 0.2,
+  "squareSprite": false,
+  "category": "liquid",
+  "hasPower": true,
+  "consumes": {
+    "power": 1
+  },
+  "requirements": [
+    "cobalt/100",
+    "vibranium/30"
+  ],
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/50",
+      "vibranium/100"
+    ]
+  }
+}
