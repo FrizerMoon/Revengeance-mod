@@ -1,0 +1,23 @@
+{
+  "type": "drill",
+  "name": "Кобальтовый бур",
+  "category": "production",
+  "description": "Позволяет добывать кобальт и вибраниум",
+  "heath": 270,
+  "speed": 0.10,
+  "size": 3,
+  "tier": 2,
+  "drillTime": 350,
+  "itemCapacity": 30,
+  "rotateSpeed": 2,
+  "buildCostMultiplier": 5.0,
+  "research": {
+    "parent": "integral",
+    "requirements": [
+      "cobalt/150"
+    ]
+  },
+  "requirements": [
+    "cobalt/30"
+  ]
+}
