@@ -1,0 +1,48 @@
+{
+  "type": "RegenProjector",
+  "name": "Регенератор частиц",
+  "description": "Восстанавливает здоровье всех построек в его радиусе",
+  "size": 2,
+  "range": 12,
+  "baseColor": "85c278",
+  "squareSprite": false,
+  "effect": {
+    "type": "ParticleEffect",
+    "colorFrom": "85c278",
+    "colorTo": "69a25e",
+    "particles": 3,
+    "line": true,
+    "length": 3,
+    "baseLength": 2,
+    "strokeFrom": 0.6,
+    "strokeTo": 1.6,
+    "lifetime": 90,
+    "cone": 360,
+    "interp": "pow2",
+    "sizeInterp": "pow2Out"
+  },
+  "consumes": {
+    "power": 0.5
+  },
+  "optionalUseTime": 180,
+  "optionalMultiplier": 2,
+  "healPercent": 0.02,
+  "research": {
+    "parent": "integral",
+    "objectives": [
+      {
+        "type": "OnSector",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobalt/500",
+      "vibranium/100"
+    ]
+  },
+  "requirements": [
+    "cobalt/100",
+    "cobranium/50"
+  ],
+  "category": "effect"
+}
