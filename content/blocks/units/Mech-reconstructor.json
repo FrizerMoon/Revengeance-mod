@@ -1,0 +1,41 @@
+{
+  "type": "Reconstructor",
+  "name": "Реконструктор танков",
+  "size": 3,
+  "health": 800,
+  "constructTime": 1500,
+  "liquidCapacity": 60,
+  "consumes": {
+    "power": 2,
+    "items": {
+      "items": [
+        "implositis/40",
+        "vibranium/50",
+        "cobranium/30"
+      ]
+    }
+  },
+  "upgrades": [
+    [ "Cobrax", "Lancer" ]
+  ],
+  "category": "units",
+  "research": {
+    "parent": "Mech-constructor",
+    "objectives": [
+      {
+        "type": "SectorComplited",
+        "preset": "Burning-Forest"
+      }
+    ],
+    "requirements": [
+      "cobranium/1000",
+      "implositis/400",
+      "vibranium/2000"
+    ]
+  },
+  "requirements": [
+    "cobranium/100",
+    "implositis/40",
+    "vibranium/200"
+  ]
+}
