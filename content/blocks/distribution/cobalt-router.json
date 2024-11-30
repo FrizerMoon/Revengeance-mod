@@ -1,0 +1,18 @@
+{
+  "type": "Router",
+  "name": "Кобальтовий маршрутизатор",
+  "category": "distribution",
+  "description": "Распределяет предметы на 3 стороны",
+  "health": 80,
+  "itemCapacity": 5,
+  "requirements": [
+    "cobalt/3"
+
+  ],
+  "research": {
+    "parent": "cobalt-conveyor",
+    "requirements": [
+      "cobalt/50"
+    ]
+  }
+}
