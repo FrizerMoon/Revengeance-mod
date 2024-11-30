@@ -7,9 +7,8 @@
   "difficulty": 2,
   "alwaysUnlocked": true,
   "research": {
-    "parent": "Crash-landing",
-    "requirements": [
-      "cobalt/100"
-    ]
+    "root": true,
+    "name": "Celestis",
+    "planet": "Celestis"
   }
 }
