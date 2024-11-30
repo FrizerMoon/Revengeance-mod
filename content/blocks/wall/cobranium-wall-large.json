@@ -1,0 +1,19 @@
+{
+  "name": "Большая кобраниевая стена",
+  "description": "Большая версия кобраниевой стены",
+  "type": "wall",
+  "health": 1800,
+  "size": 2,
+  "insulated": true,
+  "absorbLasers": true,
+  "requirements": [
+    "cobranium/24"
+  ],
+  "research": {
+    "parent": "cobranium-wall",
+    "requirements": [
+      "cobranium/400"
+    ]
+  },
+  "category": "defense"
+}
